@@ -1,0 +1,36 @@
+
+.container {
+    margin-top: 80px;
+    margin-left: 20px;
+    
+}
+
+h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/*input {
+   
+ }*/
+
+ 
+  p {
+      height: 24px;
+      font-size: 20px;
+      margin-right: 10px;
+  }
+
+  body {
+    
+    
+    background-image: url('/img/dokumentumok.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+    
+  }
+  
+ 
