@@ -1,0 +1,28 @@
+body {
+    margin:2rem;
+    margin-top: 100px;
+}
+
+.card-img-top {
+    border-radius: 10%;
+}
+
+body {
+    background-image: rgb(186,238,174);
+    background-image: radial-gradient(circle, rgba(186,238,174,0.20962701612903223) 1%, rgba(179,215,186,0.9902721774193548) 62%, rgba(233,211,148,0.5096270161290323) 100%);
+}
+
+.card-body {
+    border-left-style: solid;
+    border-width: 1px;
+}
+
+.btn:hover {
+cursor: pointer;
+background: #a01482;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
