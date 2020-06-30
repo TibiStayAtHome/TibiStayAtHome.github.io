@@ -6,7 +6,6 @@ const images = [
     "img/imagesGallery/04.jpg",
     "img/imagesGallery/05.jpg",
     "img/imagesGallery/06.jpg",
-    "img/imagesGallery/06.jpg",
     "img/imagesGallery/07.jpg",
     "img/imagesGallery/08.jpg",
     "img/imagesGallery/09.jpg",
@@ -21,6 +20,12 @@ const images = [
     "img/imagesGallery/18.jpg",
     "img/imagesGallery/19.jpg",
     "img/imagesGallery/20.jpg",
+    "img/imagesGallery/21.jpg",
+    "img/imagesGallery/22.jpg",
+    "img/imagesGallery/23.jpg",
+    "img/imagesGallery/24.jpg",
+    "img/imagesGallery/25.jpg",
+    "img/imagesGallery/26.jpg",
 ];
 
 let container = document.getElementById("gallery");
@@ -32,8 +37,6 @@ img.src = imgSrc;
 img.alt = "";
 return img;
 }
-
-
 
 images.forEach(img => {
     let imgDiv = document.createElement("div");
