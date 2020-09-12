@@ -9,16 +9,27 @@ caption {
 table {
     margin: auto;
     width: 50% !important;
+    max-width: 500px;
     margin-top: 50px;
 }
 
 .page {
     height: max-content;
     min-height: 500px;
-    background-color: rgb(238, 232, 151);
+    background-color: rgb(167, 189, 108);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     font-size: medium;
   }
+ .fas { margin-right: 5px;
 
+ }
+
+ strong {
+     font-size: 20px;
+ }
+
+ i {
+     font-size: 20px;
+ }
