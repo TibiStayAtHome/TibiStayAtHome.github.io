@@ -5,18 +5,46 @@
   -o-background-size: cover;
 }
 */
+@font-face {
+  src: url(/fonts/Modak-Regular.ttf);
+  font-family:'Modak', cursive;
+}
 
 .masthead {
-  height: 100vh;
-  min-height: 500px;
+  height: 50vh;
+  min-height: 20px;
   background-image: url('');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  text-shadow: 1px 2px 2px;
+  
 }
 
 h1 {
-  font-size: 60px;
-  color: darkorchid;
-  font-weight: 900;
+  font-size: calc(100% + 1vw + 1vh);
+  font-family:'Modak', cursive;
+  font-style: italic;
 }
+
+.lead {
+  font-family:'Modak', cursive;
+  font-size: calc(100% + 1vw + 1vh);
+  font-weight: 600;
+  color:#d6d3d3;
+  margin-top: 40px;
+  text-shadow: 1px 3px 3px #000, 3px 3px 5px rgb(82, 81, 80);
+}
+
+.img-fluid {
+  border-radius: 8%;
+  opacity: 0.8;
+  -webkit-filter: brightness(130%);
+}
+
+body {
+  background: linear-gradient(-45deg, #ebaa56, #b1af44, rgb(248, 220, 128), #f6e971);
+
+}
+color: rgb(117, 116, 116);
