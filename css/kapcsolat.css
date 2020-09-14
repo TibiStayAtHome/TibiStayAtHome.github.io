@@ -1,27 +1,17 @@
-caption {
-    caption-side: top;
-    text-align: center;
-    font-size: larger;
-    font-weight: 900;
-    padding: 50px;
-}
 
-table {
-    margin: auto;
-    width: 50% !important;
-    max-width: 500px;
-    margin-top: 50px;
+.container {
+    margin-top: 100px;
 }
 
 .page {
     height: max-content;
     min-height: 500px;
-    background-color: rgb(167, 189, 108);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     font-size: medium;
   }
+
  .fas { margin-right: 5px;
 
  }
@@ -32,4 +22,7 @@ table {
 
  i {
      font-size: 20px;
+ }
+ body {
+     background-color: rgb(199, 199, 199);
  }
