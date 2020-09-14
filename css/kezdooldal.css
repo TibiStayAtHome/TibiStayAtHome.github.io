@@ -24,7 +24,7 @@
 
 h1 {
   color: rgb(179, 37, 223);
-  font-size: 60p;
+  font-size: calc(100% + 1vw + 1vh);
   font-weight: 900;
   font-family:'Modak', cursive;
   font-style: italic;
