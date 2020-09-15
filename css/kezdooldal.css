@@ -12,25 +12,24 @@
        url('/fonts/lobster-regular-webfont.woff2') format('woff2');
 }
 
-.masthead {
+.text-center {
   height: 50vh;
   min-height: 20px;
   background-image: url('');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 40px;
+  margin-top: 100px;
   text-shadow: 1px 2px 2px;
-  
 }
 
 h1 {
   color: rgb(179, 37, 223);
   font-size: calc(100% + 1vw + 1vh);
-  font-weight: 900;
+  font-weight: 500;
   font-family:'Lobster', cursive;
   font-style: italic;
-
+  margin-top: 50px;
 }
 
 .lead {
@@ -46,9 +45,11 @@ h1 {
   border-radius: 8%;
   opacity: 0.8;
   -webkit-filter: brightness(130%);
+  align-items: center;
+  margin-top: 50px;
 }
 
 body {
   background: linear-gradient(-45deg, #ebaa56, #b1af44, rgb(248, 220, 128), #f6e971);
-  
+ 
 }
