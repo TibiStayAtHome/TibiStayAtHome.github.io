@@ -6,8 +6,8 @@
 }
 */
 @font-face {
-  src: url('/fonts/Modak-Regular.ttf');
-  font-family: 'Modak', cursive, 'sans-serif';
+  font-family: "Lobster";
+  src: url("/fonts/Lobster-Regular.ttf");
 }
 
 .masthead {
@@ -26,13 +26,13 @@ h1 {
   color: rgb(179, 37, 223);
   font-size: calc(100% + 1vw + 1vh);
   font-weight: 900;
-  font-family:'Modak', cursive;
+  font-family:'Lobster', cursive;
   font-style: italic;
 
 }
 
 .lead {
-  font-family:'Modak', cursive;
+  font-family:'Lobster', cursive;
   font-size: calc(100% + 1vw + 1vh);
   font-weight: 900;
   color:rgb(117, 116, 116);
