@@ -22,8 +22,7 @@
   margin-top: 100px;
   text-shadow: 1px 1px 1px;
 }
-/* rgb(153, 143, 6); */
-/* rgb(158, 78, 4); */
+
 h1 {
   color:rgb(144, 14, 64);
   font-size:calc(150% + 1vw + 1vh);
@@ -37,7 +36,7 @@ h1 {
 .lead {
   font-family:'Lobster', cursive;
   font-size: calc(100% + 1vw + 1vh);
-  font-weight: 900;
+  font-weight: 500;
   color: rgb(144, 14, 64);
   margin-top: 40px;
   text-shadow: 2px 1px 1px #000, 3px 3px 5px rgb(82, 81, 80);
