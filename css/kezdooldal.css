@@ -7,7 +7,9 @@
 */
 @font-face {
   font-family: "Lobster";
-  src: url("/fonts/Lobster-Regular.ttf");
+  src: url('/fonts/Lobster-Regular.ttf'),
+       url('/fonts/lobster-regular-webfont.woff') format('woff'),
+       url('/fonts/lobster-regular-webfont.woff2') format('woff2');
 }
 
 .masthead {
