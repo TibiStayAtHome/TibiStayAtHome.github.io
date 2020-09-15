@@ -24,8 +24,8 @@
 }
 
 h1 {
-  color: rgb(179, 37, 223);
-  font-size: calc(100% + 1vw + 1vh);
+  color: rgb(153, 143, 6);
+  font-size:calc(150% + 1vw + 1vh);
   font-weight: 500;
   font-family:'Lobster', cursive;
   font-style: italic;
@@ -36,13 +36,14 @@ h1 {
   font-family:'Lobster', cursive;
   font-size: calc(100% + 1vw + 1vh);
   font-weight: 900;
-  color:rgb(117, 116, 116);
+  color: rgb(117, 116, 116);
   margin-top: 40px;
   text-shadow: 2px 1px 1px #000, 3px 3px 5px rgb(82, 81, 80);
+  
 }
 
 .img-fluid {
-  border-radius: 8%;
+  border-radius: 2%;
   opacity: 0.8;
   -webkit-filter: brightness(130%);
   align-items: center;
@@ -50,6 +51,5 @@ h1 {
 }
 
 body {
-  background: linear-gradient(-45deg, #ebaa56, #b1af44, rgb(248, 220, 128), #f6e971);
- 
+  background: linear-gradient(-180deg,#f7f8f8,#acbb78);	
 }
